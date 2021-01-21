@@ -1,0 +1,88 @@
+baseURL = "http://mk.local"
+languageCode = "en-us"
+title = "Mark Knopfler"
+titleCaseStyle = "AP"
+pygmentsUseClasses = true
+enableGitInfo = true
+enableRobotsTXT = true
+
+[taxonomies]
+tag = "tags"
+
+[permalinks]
+posts = ":title"
+
+[blackfriday]
+plainIDAnchors = true
+hrefTargetBlank = false
+angledQuotes = false
+
+[params]
+timeFormatRFC3339 = "2006-01-02T15:04:05Z07:00"
+timeFormatDefault = "January 2, 2006"
+timeFormatShort = "Jan 02, 2006"
+description = "Articles about Songs, Guitars, Dire Straits, best practices, and everything else related to being awesome."
+
+[params.author]
+name = "Mark Knopfler"
+homepage = "http://mk.local"
+twitterHandle = "mk_"
+
+[menu]
+
+[[menu.main]]
+name = "Tags"
+weight = 0
+url = "/tags"
+
+[[menu.main]]
+name = "Privacy"
+weight = 4
+url = "/privacy"
+
+[[menu.footer]]
+name = "RSS"
+weight = 2
+url = "/posts/index.xml"
+
+[[menu.footer]]
+name = "Github"
+weight = 5
+url = "https://github.com/omaralsoudanii"
+
+
+[related]
+threshold = 80
+includeNewer = true
+toLower = true
+
+[[related.indices]]
+name = "tags"
+weight = 100
+
+[[related.indices]]
+name = "keywords"
+weight = 80
+
+[markup]
+
+[markup.goldmark]
+
+[markup.goldmark.extensions]
+definitionList = true
+footnote = true
+linkify = true
+strikethrough = true
+table = true
+taskList = true
+typographer = true
+
+[markup.goldmark.parser]
+attribute = true
+autoHeadingID = true
+autoHeadingIDType = "github"
+
+[markup.goldmark.renderer]
+hardWraps = false
+unsafe = false
+xHTML = false

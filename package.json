@@ -1,0 +1,54 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "My personal blog",
+  "main": "index.js",
+  "scripts": {
+    "start": "cross-env NODE_ENV=development hugo server --buildFuture",
+    "build": "cross-env NODE_ENV=production hugo --gc --minify",
+    "build:preview": "cross-env NODE_ENV=production hugo --gc --minify --buildFuture",
+    "format": "prettier --write assets/**/*.{js,css} {content,archetypes,layouts}/**/*.{md,html} tailwind.config.js postcss.config.js ./**/*.toml"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mk/blog.git"
+  },
+  "author": "Mark Knopfler",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mk/blog/issues"
+  },
+  "homepage": "https://github.com/mk/blog#readme",
+  "devDependencies": {
+    "@tailwindcss/typography": "^0.2.0",
+    "cross-env": "^7.0.3",
+    "cssnano": "^4.1.10",
+    "hugo-bin": "^0.68.0",
+    "husky": "^4.3.8",
+    "lint-staged": "^10.5.3",
+    "postcss-cli": "^7.1.2",
+    "postcss-color-function": "^4.1.0",
+    "postcss-import": "^12.0.1",
+    "postcss-mixins": "^6.2.3",
+    "postcss-nested": "^4.2.3",
+    "postcss-preset-env": "^6.7.0",
+    "postcss-simple-vars": "^5.0.2",
+    "prettier": "^2.2.1",
+    "prettier-plugin-go-template": "0.0.10",
+    "prettier-plugin-toml": "0.3.1",
+    "tailwindcss": "^1.9.6",
+    "tailwindcss-dark-mode": "^1.1.7"
+  },
+  "dependencies": {
+    "firebase-admin": "^9.4.2",
+    "instant.page": "^5.1.0"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{js,css,md,toml}": "prettier --write"
+  }
+}
