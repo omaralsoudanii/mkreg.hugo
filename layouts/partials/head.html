@@ -89,7 +89,7 @@
   {{ if .IsHome }}
   <script type="application/ld+json">
      {
-       "@context": "http://schema.org",
+       "@context": "https://schema.org",
        "@type": "WebSite",
        "url": "{{ .Permalink }}",
        "name": "{{ .Site.Title }}",
@@ -105,7 +105,7 @@
   <script type="application/ld+json">
      {{ if eq .Section "posts" }}
      {
-       "@context": "http://schema.org",
+       "@context": "https://schema.org",
        "@type": "BlogPosting",
        "headline": "{{ .Title }}",
        "keywords": {{ .Params.tags | jsonify }},
@@ -121,7 +121,7 @@
      }
      {{ else }}
      {
-       "@context": "http://schema.org",
+       "@context": "https://schema.org",
        "@type": "WebSite",
        "url": "{{ .Permalink }}",
        "name": "{{ .Title }}",

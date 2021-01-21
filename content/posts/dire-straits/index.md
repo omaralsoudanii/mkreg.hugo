@@ -11,7 +11,7 @@ Guy has worked on stage and in studio with many world renowned artists such as C
 
 Mark first met Guy in 1983, when Guy knocked on Mark's door with a synthesiser under his arm. Guy's technical and musical abilities became essential to Mark, and the pair immediately started work on two film soundtracks, Cal and Comfort and Joy. It was a natural progression that Guy would join Mark's band, Dire Straits. 
 
-Guy's solo projects are all available on his website [www.guyfletcher.co.uk](http://www.guyfletcher.co.uk/), which continues to host the ever popular diaries from tour and studio since 2001\. 
+Guy's solo projects are all available on his website [www.guyfletcher.co.uk](https://www.guyfletcher.co.uk/), which continues to host the ever popular diaries from tour and studio since 2001\. 
 
 ### Danny Cummings: Percussion 
 

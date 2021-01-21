@@ -1,4 +1,4 @@
-baseURL = "http://mk.local"
+baseURL = "https://mkreg.dev"
 languageCode = "en-us"
 title = "Mark Knopfler"
 titleCaseStyle = "AP"
@@ -25,7 +25,7 @@ description = "Articles about Songs, Guitars, Dire Straits, best practices, and 
 
 [params.author]
 name = "Mark Knopfler"
-homepage = "http://mk.local"
+homepage = "https://mkreg.dev"
 twitterHandle = "mk_"
 
 [menu]
