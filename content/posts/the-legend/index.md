@@ -1,6 +1,6 @@
 ---
-title: 3ammak Mark
-slug: 3ammak-mark
+title: The legend
+slug: the-legend
 date: 2021-01-20
 tags: [Omar, Legend]
 description:
@@ -11,7 +11,16 @@ description:
 
 The alcoholic across the street staggers out and vomits off the side of her porch. She cusses incoherently at her yappy-ass dog and stumbles back inside, slamming the door behind her. Six a.m. on the nose. She is nothing if not reliable. I scowl at the fading tan line on my ring finger and try not to think about reliability. 
 
-{{<figure src="/img/sultan.png" caption="CREDIT: Bob King/Redferns">}}
+
+<figure> 
+   <picture>
+    <source srcset="./sultan1.webp" type="image/webp">
+      <img src="./sultan1.jpg" alt="Mark Knopfler">
+    </picture>
+    <figcaption>
+      <p class="caption">CREDIT: Bob King/Redferns</p>
+    </figcaption>
+</figure>
 
 
 A disgruntled rumble draws my attention skyward. I'm a bit on edge. There are two tropical storms churning up the Gulf. It's not even hurricane season, but I guess they didn't get the memo. False alarm. It's only a sanitation truck, a few blocks away. "Prehistoric garbage trucks have the city to themselves" plays in my head and, wishing I had written that, I silently curse Mark Knopfler. I bet he never has writer's block.  I scratch through my last, feeble sentence and scribble _Why I Hate Mark Knopfler_. I number one through ten. Hell, at least I'm writing. 
@@ -26,7 +35,17 @@ I alter my title: _Top 10 Reasons Why I Hate Mark Knopfler _and continue.
 
 3\. Effortless artistry. Okay, even in my hatred, I can concede that Mark Knopfler might be one of the greatest living guitarists, but would it kill him to pretend it was at least _slightly_ difficult? I saw a clip of an interview where he waved off a compliment and complained to Anthony Mason that he held a guitar "like a plumber holds a hammer." I rolled my eyes so hard I sprained them. Whatever, Markie. 
 
-{{<figure src="/img/lulz.png" caption="CREDIT: Ebet Roberts/Redferns">}}
+
+<figure>
+   <picture>
+    <source srcset="./sultan2.webp" type="image/webp">
+      <img src="./sultan2.jpg" alt="Mark Knopfler">
+    </picture>
+    <figcaption>
+      <p class="caption">CREDIT: Ebet Roberts/Redferns</p>
+    </figcaption>
+</figure>
+
 
 
 4\. Should come with a warning label. I was in a public place when I first heard "If This is Goodbye," his duet with Emmylou Harris. I wasn't moved or touched. No, I was devastated. I ugly cried. I hiccup-sobbed. When I finally managed to compose myself, puffy-eyed and racoon-faced, I was thoroughly humiliated. 
@@ -41,7 +60,7 @@ I blink. Nuh uh.
 
 "You know," she tilts her perfect head, "the Dire Straits guy?" 
 
-"I know the Dire Straits guy." 
+"I know the Dire Straits guy."
 
 The Oompa Loompas are back on the bumper. One of them pounds the side of the truck, and it rolls away, leaving me in a cloud of carbon monoxide. I drag my reeking trashcan back to the yard and reclaim my pen. I scratch through the top of my list and scribble _Top_ **_100_**_Reasons Why I Hate Mark Knopfler. _
 
