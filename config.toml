@@ -1,10 +1,10 @@
-baseURL = "https://mkreg.dev"
+baseURL = "https://mr.mkreg.dev"
 languageCode = "en-us"
 title = "Mark Knopfler"
 titleCaseStyle = "AP"
 pygmentsUseClasses = true
 enableGitInfo = true
-enableRobotsTXT = true
+enableRobotsTXT = false
 
 [taxonomies]
 tag = "tags"
@@ -25,8 +25,7 @@ description = "Articles about Songs, Guitars, Dire Straits, best practices, and 
 
 [params.author]
 name = "Mark Knopfler"
-homepage = "https://mkreg.dev"
-twitterHandle = "mk_"
+homepage = "https://mr.mkreg.dev"
 
 [menu]
 
@@ -49,7 +48,6 @@ url = "/posts/index.xml"
 name = "Github"
 weight = 5
 url = "https://github.com/omaralsoudanii"
-
 
 [related]
 threshold = 80

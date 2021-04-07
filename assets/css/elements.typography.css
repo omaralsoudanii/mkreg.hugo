@@ -4,7 +4,7 @@ h3,
 h4,
 h5,
 h6 {
-  @apply leading-tight font-medium text-headings mb-4 font-display;
+  @apply mb-4 font-bold text-headings;
 }
 
 h1 {
@@ -31,6 +31,8 @@ h6 {
   @apply text-sm;
 }
 
+.prose p,
 p {
-  @apply leading-relaxed mb-4;
+  @apply mb-4 leading-relaxed;
+  font-size: inherit;
 }

@@ -1,7 +1,7 @@
 {
-  "name": "blog",
+  "name": "mk",
   "version": "1.0.0",
-  "description": "My personal blog",
+  "description": "MK site",
   "main": "index.js",
   "scripts": {
     "start": "cross-env NODE_ENV=development hugo server --buildFuture",
@@ -9,16 +9,9 @@
     "build:preview": "cross-env NODE_ENV=production hugo --gc --minify --buildFuture",
     "format": "prettier --write assets/**/*.{js,css} {content,archetypes,layouts}/**/*.{md,html} tailwind.config.js postcss.config.js ./**/*.toml"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/mk/blog.git"
-  },
-  "author": "Mark Knopfler",
+  "author": "Omar Alsoudani",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/mk/blog/issues"
-  },
-  "homepage": "https://github.com/mk/blog#readme",
+  "homepage": "https://github.com/omaralsoudanii/mkreg.hugo",
   "devDependencies": {
     "@tailwindcss/typography": "^0.2.0",
     "cross-env": "^7.0.3",
@@ -40,7 +33,6 @@
     "tailwindcss-dark-mode": "^1.1.7"
   },
   "dependencies": {
-    "firebase-admin": "^9.4.2",
     "instant.page": "^5.1.0"
   },
   "husky": {

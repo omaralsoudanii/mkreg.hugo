@@ -33,17 +33,17 @@ module.exports = {
           },
           h5: {
             color: theme('colors.headings'),
-            fontSize: theme('fontSize.sm'),
+            fontSize: theme('fontSize.base'),
             fontWeight: 500,
           },
           h6: {
             color: theme('colors.headings'),
-            fontSize: theme('fontSize.sm'),
+            fontSize: theme('fontSize.base'),
             fontWeight: 400,
           },
           p: {
             color: theme('colors.headings'),
-            fontSize: theme('fontSize.sm'),
+            fontSize: theme('fontSize.base'),
             fontWeight: 400,
           },
           'ul > li::before': {
@@ -110,7 +110,7 @@ module.exports = {
       display: 'var(--font-display)',
       body: 'var(--font-display)',
       mono: 'var(--font-display)',
-      sans: 'var(--font-display)'
+      sans: 'var(--font-display)',
     },
     screens: {
       sm: '640px',
