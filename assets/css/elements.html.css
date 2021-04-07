@@ -1,9 +1,3 @@
-:root {
-  --fontSize: 16px;
-  --lineHeight: calc(var(--fontSize) * 1.5);
-  --spacing: 2rem;
-}
-
 html {
   font-size: var(--fontSize);
   line-height: var(--lineHeight);
@@ -11,8 +5,9 @@ html {
 body {
   font-size: var(--fontSize);
   line-height: var(--lineHeight);
-  font: 16px/22px Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
-    Oxygen, Ubuntu, Cantarell, Open Sans, Helvetica Neue, sans-serif;
+  font: 16px/22px 'Inter', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI',
+    'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Open Sans', 'Helvetica Neue',
+    'sans-serif';
   letter-spacing: -0.004em;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;

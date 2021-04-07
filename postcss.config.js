@@ -6,6 +6,7 @@ module.exports = {
     require('postcss-color-function'),
     require('postcss-simple-vars'),
     require('tailwindcss'),
+    require('autoprefixer'),
     require('postcss-preset-env'),
     ...(process.env.NODE_ENV === 'production'
       ? [
