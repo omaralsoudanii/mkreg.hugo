@@ -5,6 +5,7 @@ h4,
 h5,
 h6 {
   @apply mb-4 font-bold text-headings;
+  font-family: var(--font-display);
 }
 
 h1 {

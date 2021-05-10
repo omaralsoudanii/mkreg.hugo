@@ -10,12 +10,14 @@ module.exports = {
       mono: 'var(--font-display)',
       sans: 'var(--font-display)',
     },
+    screens: {
+      sm: '640px',
+    },
     typography: (theme) => ({
       default: {
         css: {
           '*,*::before,*::after': {
             borderColor: theme('colors.grey.light'),
-            fontFamily: 'var(--font-body)',
           },
           color: theme('colors.body'),
           h1: {
