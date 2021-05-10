@@ -24,7 +24,7 @@ yarn build
 
 The build will output static files in `public` folder, from there u can serve it with a web server like NGINX, or your choice of static app hosting service.
 
-Personally i am hosting it with vercel and cloudflare for DNS resolving at https://mr.mkreg.dev/
+Personally i am hosting it with vercel at https://mkreg-hugo.vercel.app/
 
 # TODO
 - Upgrade Tailwindcss and use JIT mode.
