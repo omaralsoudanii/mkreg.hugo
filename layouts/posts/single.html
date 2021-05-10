@@ -1,13 +1,13 @@
 {{ define "main" }}
-  <article class="container mx-auto px-4">
+  <article class="container px-4 mx-auto">
     <header class="mb-12">
-      <h1 class="leading-tight mt-4">{{ .Title | title }}</h1>
+      <h1 class="mt-4 leading-tight">{{ .Title | title }}</h1>
     </header>
-    <div class="prose">
+    <div class="prose lg:prose-lg">
       {{ with .Params.canonical }}
         {{ $url := urls.Parse . }}
         <div
-          class="font-display leading-snug text-sm p-2 bg-grey-lightest border border-grey-light text-grey-darkest rounded"
+          class="p-2 text-sm leading-snug border rounded font-display bg-grey-lightest border-grey-light text-grey-darkest"
         >
           This article was originally published at
           <a href="{{ . }}" class="font-medium" rel="nofollow noopener">
