@@ -6,94 +6,101 @@ module.exports = {
     darkSelector: '.dark',
     fontFamily: {
       display: 'var(--font-display)',
-      body: 'var(--font-display)',
+      body: 'var(--font-body)',
       mono: 'var(--font-display)',
       sans: 'var(--font-display)',
     },
-    extend: {
-      typography: (theme) => ({
-        default: {
-          css: {
-            '*,*::before,*::after': {
-              borderColor: theme('colors.grey.light'),
-            },
-            color: theme('colors.body'),
-            h1: {
-              color: theme('colors.headings'),
-              fontSize: theme('fontSize.2xl'),
-              fontWeight: 700,
-            },
-            h2: {
-              color: theme('colors.headings'),
-              fontSize: theme('fontSize.xl'),
-              fontWeight: 700,
-            },
-            h3: {
-              color: theme('colors.headings'),
-              fontSize: theme('fontSize.lg'),
-              fontWeight: 700,
-            },
-            h4: {
-              color: theme('colors.headings'),
-              fontSize: theme('fontSize.base'),
-              fontWeight: 500,
-            },
-            h5: {
-              color: theme('colors.headings'),
-              fontSize: theme('fontSize.base'),
-              fontWeight: 500,
-            },
-            h6: {
-              color: theme('colors.headings'),
-              fontSize: theme('fontSize.base'),
-              fontWeight: 400,
-            },
-            p: {
-              color: theme('colors.headings'),
-              fontSize: theme('fontSize.base'),
-              fontWeight: 400,
-            },
-            'ul > li::before': {
-              content: '""',
-              position: 'absolute',
-              backgroundColor: theme('colors.grey.dark'),
-              borderRadius: '50%',
-            },
-            a: {
-              borderBottom: `1px dotted ${theme('colors.grey.darker')}`,
-              color: theme('colors.current'),
-              fontWeight: theme('fontWeight.medium'),
-              textDecoration: 'none',
-              '&:hover': {
-                backgroundColor: theme('colors.black'),
-                color: theme('colors.white'),
-                borderBottom: 'none',
-              },
-            },
-            strong: {
-              color: theme('colors.body'),
-              fontWeight: 600,
-            },
-            thead: {
-              borderBottomColor: theme('colors.grey.light'),
-            },
-            tbody: {
-              tr: {
-                borderBottomColor: theme('colors.grey.light'),
-              },
-            },
-            figure: {
-              figcaption: {
-                color: theme('colors.grey.darkest'),
-                fontFamily: theme('fontFamily.display'),
-              },
-            },
-            blockquote: {
-              color: theme('colors.grey.darkest'),
+    typography: (theme) => ({
+      default: {
+        css: {
+          '*,*::before,*::after': {
+            borderColor: theme('colors.grey.light'),
+            fontFamily: 'var(--font-body)',
+          },
+          color: theme('colors.body'),
+          h1: {
+            color: theme('colors.headings'),
+            fontSize: theme('fontSize.2xl'),
+            fontWeight: 700,
+            fontFamily: 'var(--font-display)',
+          },
+          h2: {
+            color: theme('colors.headings'),
+            fontSize: theme('fontSize.xl'),
+            fontWeight: 700,
+            fontFamily: 'var(--font-display)',
+          },
+          h3: {
+            color: theme('colors.headings'),
+            fontSize: theme('fontSize.lg'),
+            fontWeight: 700,
+            fontFamily: 'var(--font-display)',
+          },
+          h4: {
+            color: theme('colors.headings'),
+            fontSize: theme('fontSize.base'),
+            fontWeight: 500,
+            fontFamily: 'var(--font-display)',
+          },
+          h5: {
+            color: theme('colors.headings'),
+            fontSize: theme('fontSize.base'),
+            fontWeight: 500,
+            fontFamily: 'var(--font-display)',
+          },
+          h6: {
+            color: theme('colors.headings'),
+            fontSize: theme('fontSize.base'),
+            fontWeight: 400,
+            fontFamily: 'var(--font-display)',
+          },
+          p: {
+            color: theme('colors.headings'),
+            fontSize: theme('fontSize.base'),
+            fontWeight: 400,
+          },
+          'ul > li::before': {
+            content: '""',
+            position: 'absolute',
+            backgroundColor: theme('colors.grey.dark'),
+            borderRadius: '50%',
+          },
+          a: {
+            borderBottom: `1px dotted ${theme('colors.grey.darker')}`,
+            color: theme('colors.current'),
+            fontWeight: theme('fontWeight.medium'),
+            textDecoration: 'none',
+            '&:hover': {
+              backgroundColor: theme('colors.black'),
+              color: theme('colors.white'),
+              borderBottom: 'none',
             },
           },
+          strong: {
+            color: theme('colors.body'),
+            fontWeight: 600,
+          },
+          thead: {
+            borderBottomColor: theme('colors.grey.light'),
+          },
+          tbody: {
+            tr: {
+              borderBottomColor: theme('colors.grey.light'),
+            },
+          },
+          figure: {
+            figcaption: {
+              color: theme('colors.grey.darkest'),
+              fontFamily: theme('fontFamily.display'),
+            },
+          },
+          blockquote: {
+            color: theme('colors.grey.darkest'),
+          },
         },
-      }),
+      },
+    }),
+    extend: {
       colors: {
         bg: 'var(--colors-bg)',
         body: 'var(--colors-body)',
@@ -127,7 +134,6 @@ module.exports = {
   variants: {
     borderStyle: ['responsive', 'hover', 'focus'],
     display: ['dark', 'responsive'],
-    typography: ['dark', 'responsive'],
     opacity: ['responsive', 'hover', 'focus', 'active', 'group-hover'],
     scale: ['responsive', 'hover', 'focus', 'group-hover'],
     textColor: ['responsive', 'hover', 'focus', 'group-hover'],
