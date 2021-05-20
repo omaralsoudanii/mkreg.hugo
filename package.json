@@ -35,7 +35,7 @@
   "dependencies": {
     "autoprefixer": "^10.2.5",
     "instant.page": "^5.1.0",
-    "postcss": "^8.2.9"
+    "postcss": "^8.2.10"
   },
   "husky": {
     "hooks": {
