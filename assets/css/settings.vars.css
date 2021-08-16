@@ -33,12 +33,12 @@
   --colors-grey-darker: #8e8e93;
   --colors-grey-darkest: #6c6c70;
   --fontSize: 1rem;
-  --lineHeight: 1.5;
+  --lineHeight: 1.75;
   --spacing: 2rem;
 }
 
 .dark {
-  --colors-bg: #000;
+  --colors-bg: #191B1D;
   --colors-body: #fafafa;
   --colors-headings: #fff;
 
