@@ -34,6 +34,6 @@ h6 {
 
 .prose p,
 p {
-  @apply mb-4 leading-relaxed;
+  @apply mb-4;
   font-size: inherit;
 }

@@ -11,7 +11,7 @@ module.exports = {
       sans: 'var(--font-display)',
     },
     screens: {
-      sm: '760px',
+      sm: '640px',
     },
     typography: (theme) => ({
       default: {
